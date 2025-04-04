@@ -1,0 +1,81 @@
+---
+title: "Quarto Workshop Series: <span style='color: #b52b4c;'><br>Transitioning from SPSS to R</span>"
+author: "Center for Customer Insights and Digital Marketing"
+institute: "Cal Poly Pomona"
+date: "04/15/2025"
+date-format: "M/D/YYYY"
+format:
+  revealjs:
+    center: false
+    logo: "logos/ccidm-cpp logo.png"
+    theme: [default, theme.scss]
+    slide-number: true
+    toc: true
+    toc-depth: 1
+    code-link: true
+    link-external-newwindow: true
+    #chalkboard: true #cannot use with self-contained
+    embed-resources: true
+    multiplex: true
+    width: 1600
+    height: 900
+    margin: 0.1
+    minScale: 0.2
+    maxScale: 2.0
+    scrollable: true
+execute: 
+  freeze: auto
+---
+
+
+# Greetings and Introduction of the Team
+
+-   Jae Jung, Ph.D., Professor of Marketing, Moderator 
+-   Jarrod Griffin, Master's Student, Moderator
+
+# Announcement
+
+-   The workshop will be Recorded and will be available later
+-   Workshop slide materials available at <https://github.com/CCIDM/transitioning-spss-to-r>
+-   Live slides available at <https://ccidm.github.io/transitioning-spss-to-r>
+-   Questions
+
+# Overall Agenda
+
+::: incremental
+1.  Greetings and Introduction to Presenters 
+2.  Expected Learning Outcomes & Agenda
+3.  Key differences and advantages of R over SPSS (? min)
+4.  Introduction to R syntax for SPSS users (? min)
+5.  Part 1: Data Prep (? min)
+6.  Part 2: Hypothesis Testing (? min)
+7.  Q&A (5 min)
+:::
+
+
+
+# Expected Learning outcomes:
+
+After taking this workshop, participants should be able to:
+
+::: {.medium-small .incremental}
+1. Explain the data cleaning and preparation process. 
+2. Explain the benefits of using for teaching and reproducibility 
+3. Perform Exploratory Data Analysis. 
+4. Examine psychometric properties of multi-item scales (i.e., reliability, exploratory factor analysis, PCA). 
+5. Create a composite scale/index. 
+6. Explain how to recode and change labels for variables and levels. 
+7. Save cleaned data back to SPSS data. 
+8. Describe data analysis and report creation process in Quarto.
+9. Generate descriptive statistics and visualize the data. 
+10. Perform typical hypothesis tests (i.e., t-test, Chi-square test, one-way ANOVA, multiple Regression) 
+:::
+
+
+
+# Q&A
+
+- Open the floor for any questions.
+
+
+# Thank You!
