@@ -27,15 +27,14 @@ execute:
   freeze: auto
 ---
 
-
 # Greetings and Introduction of the Team
 
--   Jae Jung, Ph.D., Professor of Marketing, Moderator 
 -   Jarrod Griffin, Master's Student, Moderator
+-   Jae Jung, Ph.D., Professor of Marketing, Presenter
 
 # Announcement
 
--   The workshop will be Recorded and will be available later
+-   The workshop will be recorded and will be available later
 -   Workshop slide materials available at <https://github.com/CCIDM/transitioning-spss-to-r>
 -   Live slides available at <https://ccidm.github.io/transitioning-spss-to-r>
 -   Questions
@@ -43,39 +42,82 @@ execute:
 # Overall Agenda
 
 ::: incremental
-1.  Greetings and Introduction to Presenters 
-2.  Expected Learning Outcomes & Agenda
-3.  Key differences and advantages of R over SPSS (? min)
-4.  Introduction to R syntax for SPSS users (? min)
-5.  Part 1: Data Prep (? min)
-6.  Part 2: Hypothesis Testing (? min)
+1.  Greetings and Introduction to Presenters (Moderator)
+2.  Announcement (Moderator)
+3.  Expected Learning Outcomes & Agenda (Moderator)
+4.  Overview (15 min)
+    -   Introduction to R, RStudio, and Quarto
+    -   Key differences and advantages of R over SPSS
+    -   Introduction to Case 31
+5.  Data Preparation (25 min)
+6.  Hypothesis Testing (25 min)
 7.  Q&A (5 min)
 :::
-
-
 
 # Expected Learning outcomes:
 
 After taking this workshop, participants should be able to:
 
 ::: {.medium-small .incremental}
-1. Explain the data cleaning and preparation process. 
-2. Explain the benefits of using for teaching and reproducibility 
-3. Perform Exploratory Data Analysis. 
-4. Examine psychometric properties of multi-item scales (i.e., reliability, exploratory factor analysis, PCA). 
-5. Create a composite scale/index. 
-6. Explain how to recode and change labels for variables and levels. 
-7. Save cleaned data back to SPSS data. 
-8. Describe data analysis and report creation process in Quarto.
-9. Generate descriptive statistics and visualize the data. 
-10. Perform typical hypothesis tests (i.e., t-test, Chi-square test, one-way ANOVA, multiple Regression) 
+1.  Explain the data cleaning and preparation process.
+2.  Explain the benefits of using R for teaching and reproducible research
+3.  Perform Exploratory Data Analysis.
+4.  Examine psychometric properties of multi-item scales (i.e., reliability, exploratory factor analysis, PCA).
+5.  Create a composite scale/index.
+6.  Explain how to recode and change labels for variables and levels.
+7.  Save cleaned data back to SPSS data.
+8.  Describe data analysis and report creation process in Quarto.
+9.  Generate descriptive statistics and visualize the data.
+10. Perform typical hypothesis tests (i.e., t-test, Chi-square test, one-way ANOVA, multiple Regression)
 :::
 
+# Overview (15 min)
 
+## Introduction to R, RStudio, and Quarto
+
+## Key differences between SPSS and R
+
+| **Category** | **SPSS** | **R** |
+|---------------|---------------------------|------------------------------|
+| **Accessibility & Cost** | Proprietary software; requires a paid license | Open-source and free-to-use |
+| **Ease of Use & Learning Curve** | GUI-based; beginner-friendly with point-and-click workflows | Script-based; steeper learning curve but more flexible and powerful |
+| **Statistical & Analytical Power** | Strong for standard statistical tests; limited custom analysis | Supports basic to cutting-edge analysis; highly extensible with packages |
+| **Customization & Reproducibility** | Limited scripting; harder to reproduce analyses without detailed logs | Fully scriptable; supports reproducible workflows via R scripts or Quarto/Rmd |
+| **Community & Ecosystem** | Smaller, vendor-supported community; fewer user-developed extensions | Large, active global community; thousands of user-contributed packages (CRAN) |
+
+
+## Introduction to Case 31
+
+-   GitHub Repo: <https://github.com/jaejungca/case31>
+
+-   Data Preparation: <https://jmjung.quarto.pub/data-preparation/>
+
+-   Data Analysis and Results Presentation: <https://jmjung.quarto.pub/case31-presentatoin/>
+
+# Data Preparation (25 min)
+
+1.  Import SPSS data into RStudio
+2.  Run EDA to examine data and decide if a modification is needed
+3.  Generate descriptive statistics for categorical and continuous data
+4.  Prepare data (e.g., recode, change variable labels, and value levels).
+5.  Test psychometric properties of multi-item scale (i.e., reliability, factor analysis, PCA) and create a composite scale/index.
+6.  Create a cleaned dataset and export it back to SPSS data.
+
+# Data Analysis and Results Presentation (25 min)
+
+1.  Reading Data
+2.  Writing a report while doing an analysis
+3.  Running hypothesis tests
+    -   Descriptive stats
+    -   One sample t-test
+    -   Ch-square Goodness of fit test
+    -   Two Samples t-test
+    -   One-way ANOVA
+    -   Multiple regression
+4.  Generating insights
 
 # Q&A
 
-- Open the floor for any questions.
-
+-   Open the floor for any questions.
 
 # Thank You!
