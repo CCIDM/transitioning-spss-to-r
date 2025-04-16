@@ -77,6 +77,7 @@ After taking this workshop, participants should be able to:
 
 ## Key differences between SPSS and R
 
+::: {.table-font}
 | **Category** | **SPSS** | **R** |
 |---------------|---------------------------|------------------------------|
 | **Accessibility & Cost** | Proprietary software; requires a paid license | Open-source and free-to-use |
@@ -84,7 +85,7 @@ After taking this workshop, participants should be able to:
 | **Statistical & Analytical Power** | Strong for standard statistical tests; limited custom analysis | Supports basic to cutting-edge analysis; highly extensible with packages |
 | **Customization & Reproducibility** | Limited scripting; harder to reproduce analyses without detailed logs | Fully scriptable; supports reproducible workflows via R scripts or Quarto/Rmd |
 | **Community & Ecosystem** | Smaller, vendor-supported community; fewer user-developed extensions | Large, active global community; thousands of user-contributed packages (CRAN) |
-
+:::
 
 ## Introduction to Case 31
 
